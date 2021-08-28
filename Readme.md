@@ -1,4 +1,4 @@
-### TODO DJANO REST API 
+### DJANO REST API 
 <br>
 
 #### TODO(s):
