@@ -8,7 +8,7 @@ from django.views.decorators.csrf import csrf_exempt
 
 def index(request):
 #    response = User.objects.all()
-   response ='hello dummy text'
+   response =request.method
    return HttpResponse(response)
 
 # Create your views here.
