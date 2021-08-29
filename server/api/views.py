@@ -12,3 +12,12 @@ def index(request):
    return HttpResponse(response)
 
 # Create your views here.
+
+@csrf_exempt 
+def lda(request):
+   if request.method == 'POST':
+      response = 'reply from a successfull post request'
+      temp = request.body
+      # ans = analysisDecision(temp)
+      return HttpResponse(response) 
+   return HttpResponse('else response')
